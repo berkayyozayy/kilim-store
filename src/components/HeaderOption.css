@@ -1,0 +1,9 @@
+.headerOption {
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+}
+
+.headerOption__basket {
+    margin-left: 10px;
+}

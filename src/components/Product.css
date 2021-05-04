@@ -25,3 +25,39 @@
 .product__info p:hover {
     color: #a749ff;
 }
+
+.btn__addToBasket {
+    border-radius: 8px;
+    background-color:#a749ff;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    padding: 8px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-top: 8px;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s; 
+}
+
+.btn__addToBasket:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;  
+    text-align: center;
+    transition: 0.5s;
+}
+
+.btn__addToBasket:hover {
+    padding-right: 16px;
+    padding-left:8px;
+}
+
+.btn__addToBasket:hover::after {
+    opacity: 1;
+    right: 2px;
+}

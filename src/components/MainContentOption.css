@@ -1,0 +1,7 @@
+.mainContent__option > p {
+    margin-left: 20px;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.8px;
+    cursor: pointer;
+}

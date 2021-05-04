@@ -4,6 +4,7 @@
     font-family: 'Poppins', sans-serif;
     letter-spacing: 0.8px;
     cursor: pointer;
+    white-space: nowrap;
 }
 
 .mainContent__option p:hover {

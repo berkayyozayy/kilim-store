@@ -1,6 +1,9 @@
 import React from 'react'
 import './MainContent.css'
+
 import MainContentOption from './MainContentOption'
+import Slider from './Slider'
+
 
 function MainContent() {
     return (
@@ -12,6 +15,9 @@ function MainContent() {
                 <MainContentOption title='Collection' />
                 <MainContentOption title='Pages' />
                 <MainContentOption title='Contact Us' />
+            </div>
+            <div className='slider__container'>
+                <Slider />
             </div>
         </div>
     )

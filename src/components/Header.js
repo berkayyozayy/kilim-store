@@ -6,6 +6,8 @@ import { Avatar } from '@material-ui/core';
 import FavoriteIcon from '@material-ui/icons/Favorite';
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 
+import { Link } from 'react-router-dom'
+
 import HeaderOption from './HeaderOption'
 import { useStateValue } from '../StateProvider';
 
@@ -24,7 +26,9 @@ function Header() {
             <div className='header__right'>
                 <HeaderOption Icon={SearchIcon} />
                 <HeaderOption Icon={FavoriteIcon} />
-                <HeaderOption Icon={ShoppingCartIcon} basket={basket?.length} />
+                <Link to='/checkout' style={{ textDecoration: 'none' }}>
+                    <HeaderOption Icon={ShoppingCartIcon} basket={basket?.length} />
+                </Link>
                 <HeaderOption Icon={Avatar} />
             </div>
 

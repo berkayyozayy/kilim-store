@@ -1,0 +1,11 @@
+.checkout__title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+.checkout__title:hover {
+    color: #a749ff;
+}

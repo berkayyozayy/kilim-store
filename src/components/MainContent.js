@@ -4,6 +4,7 @@ import './MainContent.css'
 import MainContentOption from './MainContentOption'
 import Slider from './Slider'
 
+
 function MainContent() {
     return (
         <div className='main__content'>

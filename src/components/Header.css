@@ -35,3 +35,12 @@
     align-items: center;
 }
 
+.header__optionBasket {
+    display: flex;
+    align-items: center;
+}
+
+a:-webkit-any-link {
+    color: inherit;
+}
+

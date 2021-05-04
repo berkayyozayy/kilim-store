@@ -1,0 +1,27 @@
+.product {
+    margin-top: 40px; 
+}
+
+.product > img {
+    max-height: 300px;
+    max-width: 300px;
+    object-fit: contain;
+    margin-bottom: 16px;
+    margin-right: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.product__rating {
+    display: flex;
+    align-items: center;
+    color: #FFDF00;
+}
+
+.product__info > p {
+    font-family: 'Poppins', sans-serif;
+}
+
+.product__info p:hover {
+    color: #a749ff;
+}

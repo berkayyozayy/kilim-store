@@ -7,8 +7,6 @@ import Kilim1 from '../assets/kilim1.jpg'
 import Kilim2 from '../assets/kilim2.jpg'
 import Kilim3 from '../assets/kilim3.jpg'
 
-
-
 function Slider() {
     return (
         <div className='slider'>

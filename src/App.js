@@ -1,13 +1,18 @@
 import './App.css';
+import Collections from './components/Collections';
 import Header from './components/Header';
 import MainContent from './components/MainContent';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Header />
-      <MainContent />
+      <div className='app__body'>
+        <MainContent />
+        <Collections />
+      </div>
     </div>
+
   );
 }
 

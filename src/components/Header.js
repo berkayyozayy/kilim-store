@@ -7,8 +7,12 @@ import FavoriteIcon from '@material-ui/icons/Favorite';
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 
 import HeaderOption from './HeaderOption'
+import { useStateValue } from '../StateProvider';
 
 function Header() {
+
+    const [{ basket }, dispatch] = useStateValue()
+
     return (
         <div className='header'>
             <div className='header__left'>
@@ -20,7 +24,7 @@ function Header() {
             <div className='header__right'>
                 <HeaderOption Icon={SearchIcon} />
                 <HeaderOption Icon={FavoriteIcon} />
-                <HeaderOption Icon={ShoppingCartIcon} basket={0} />
+                <HeaderOption Icon={ShoppingCartIcon} basket={basket?.length} />
                 <HeaderOption Icon={Avatar} />
             </div>
 

@@ -17,7 +17,7 @@ function Collections() {
                 <Product image={Kilim1} price={1200} rating={2} />
                 <Product image={Kilim2} price={1700} rating={3} />
                 <Product image={Kilim3} price={2700} rating={5} />
-                <Product image={Kilim1} price={1200} rating={2} />
+                {/* <Product image={Kilim1} price={1200} rating={2} />
                 <Product image={Kilim2} price={1700} rating={3} />
                 <Product image={Kilim3} price={2700} rating={5} />
                 <Product image={Kilim1} price={1200} rating={2} />
@@ -25,7 +25,7 @@ function Collections() {
                 <Product image={Kilim3} price={2700} rating={5} />
                 <Product image={Kilim1} price={1200} rating={2} />
                 <Product image={Kilim2} price={1700} rating={3} />
-                <Product image={Kilim3} price={2700} rating={5} />
+                <Product image={Kilim3} price={2700} rating={5} /> */}
             </div>
 
         </div>

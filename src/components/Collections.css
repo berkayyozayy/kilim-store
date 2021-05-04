@@ -12,6 +12,10 @@
     line-height: 24px;
 }
 
+.title:hover {
+    color: #a749ff;
+}
+
 .collection__products {
     display: flex;
     transition: all .5s ease 0s;

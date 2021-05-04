@@ -26,6 +26,10 @@
     cursor: pointer;
 }
 
+.header__left p:hover {
+    color: #a749ff;
+}
+
 .header__right {
     display: flex;
     align-items: center;

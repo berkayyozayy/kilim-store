@@ -5,3 +5,7 @@
     letter-spacing: 0.8px;
     cursor: pointer;
 }
+
+.mainContent__option p:hover {
+    color: #a749ff;
+}

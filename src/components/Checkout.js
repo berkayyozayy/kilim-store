@@ -3,7 +3,6 @@ import './Checkout.css'
 
 import { Link } from 'react-router-dom'
 
-
 function Checkout() {
     return (
         <div className='checkout'>

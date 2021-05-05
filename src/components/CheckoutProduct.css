@@ -11,6 +11,11 @@
     object-fit: contain;
 }
 
+.checkoutProduct__title {
+    font-size: 20px;
+    font-weight: 500;
+}
+
 .checkoutProduct__title, .checkoutProduct__price {
     font-family: 'Poppins', sans-serif;
 }

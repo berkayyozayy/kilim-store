@@ -4,6 +4,7 @@ import './Checkout.css'
 import { useStateValue } from '../StateProvider'
 import Product from './Product'
 import Subtotal from './Subtotal'
+import CheckoutProduct from './CheckoutProduct'
 
 
 
@@ -16,6 +17,15 @@ function Checkout() {
             <div className='checkout__left'>
                 <div>
                     <p className='checkout__title'>Your Shopping Basket</p>
+                    {basket.map(item => (
+                        <CheckoutProduct
+                            image={item.image}
+                            title={item?.title}
+                            price={item.price}
+                            rating={item.rating}
+                        />
+                    ))}
+
                 </div>
             </div>
 

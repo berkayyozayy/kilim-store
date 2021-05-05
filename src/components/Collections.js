@@ -13,9 +13,9 @@ function Collections() {
                 <h2 className='title'>Collections</h2>
             </div>
             <div className='collection__products'>
-                <Product image={Kilim1} price={1200} rating={2} />
-                <Product image={Kilim2} price={1700} rating={3} />
-                <Product image={Kilim3} price={2700} rating={5} />
+                <Product title='Anatolian' image={Kilim1} price={1200} rating={2} />
+                <Product title='Persian' image={Kilim2} price={1700} rating={3} />
+                <Product title='Azerbeijan' image={Kilim3} price={2700} rating={5} />
                 {/* <Product image={Kilim1} price={1200} rating={2} />
                 <Product image={Kilim2} price={1700} rating={3} />
                 <Product image={Kilim3} price={2700} rating={5} />

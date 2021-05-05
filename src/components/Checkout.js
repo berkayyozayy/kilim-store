@@ -1,14 +1,28 @@
 import React from 'react'
 import './Checkout.css'
 
-import { Link } from 'react-router-dom'
+import { useStateValue } from '../StateProvider'
+import Product from './Product'
+import Subtotal from './Subtotal'
+
+
 
 function Checkout() {
+
+    const [{ basket }, dispatch] = useStateValue()
+
     return (
         <div className='checkout'>
-            <Link to='/' style={{ textDecoration: 'none', color: '#555252' }}>
-                <p className='checkout__title'>Zaylee Shop.</p>
-            </Link>
+            <div className='checkout__left'>
+                <div>
+                    <p className='checkout__title'>Your Shopping Basket</p>
+                </div>
+            </div>
+
+            <div className='checkout__right'>
+                <Subtotal />
+            </div>
+
 
         </div>
     )

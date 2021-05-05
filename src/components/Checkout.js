@@ -19,6 +19,7 @@ function Checkout() {
                     <p className='checkout__title'>Your Shopping Basket</p>
                     {basket.map(item => (
                         <CheckoutProduct
+                            id={item.id}
                             image={item.image}
                             title={item?.title}
                             price={item.price}

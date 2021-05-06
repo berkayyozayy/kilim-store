@@ -21,6 +21,7 @@
 
 .subtotal > p {
     margin: 8px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .subtotal__gift {
@@ -30,4 +31,9 @@
 
 .subtotal__gift > input {
     margin: 8px;
+    
+}
+
+.subtotal__gift > p {
+    font-family: 'Poppins', sans-serif;
 }

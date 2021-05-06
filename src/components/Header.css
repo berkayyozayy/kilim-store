@@ -26,6 +26,21 @@
     cursor: pointer;
 }
 
+.header__title {
+    font-family: 'Poppins', sans-serif;
+    color: #555552;
+    font-size: 16px;
+    padding-left: 40px;
+    letter-spacing: .8px;
+    text-transform: capitalize;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.header__title:hover {
+    color: #a749ff;
+}
+
 .header__left p:hover {
     color: #a749ff;
 }

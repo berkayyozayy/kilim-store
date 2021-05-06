@@ -18,7 +18,9 @@ function Header() {
     return (
         <div className='header'>
             <div className='header__left'>
-                <p>English</p>
+                <Link to='/' style={{ textDecoration: 'none' }}>
+                    <h1 className='header__title'>Zaylee Shop.</h1>
+                </Link>
                 <p>USD</p>
                 <p>Call Us +1 (503) 941-6545</p>
             </div>

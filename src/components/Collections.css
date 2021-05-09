@@ -12,7 +12,7 @@
 }
 
 .title:hover {
-    color: #a749ff;
+    color: var(--primary-hover)
 }
 
 .collection__products {

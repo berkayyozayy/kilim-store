@@ -12,7 +12,7 @@
 }
 
 .main__title:hover {
-    color: #a749ff;
+    color: var(--primary-hover)
 }
 
 .mainContent__options {

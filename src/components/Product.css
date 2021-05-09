@@ -19,7 +19,7 @@
 }
 
 .product__info p:hover {
-    color: #a749ff;
+    color: var(--primary-hover)
 }
 
 .btn__addToBasket {

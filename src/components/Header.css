@@ -35,11 +35,11 @@
 }
 
 .header__title:hover {
-    color: #a749ff;
+    color: var(--primary-hover)
 }
 
 .header__left p:hover {
-    color: #a749ff;
+    color: var(--primary-hover)
 }
 
 .header__right {

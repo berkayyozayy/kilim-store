@@ -4,6 +4,10 @@
   margin: 0;
 }
 
+:root {
+  --primary-hover: #a749ff;
+}
+
 body {
   font-family: 'Poppins', sans-serif;
 }

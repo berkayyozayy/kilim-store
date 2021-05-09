@@ -7,5 +7,5 @@
 }
 
 .mainContent__option p:hover {
-    color: #a749ff;
+    color: var(--primary-hover)
 }

@@ -17,7 +17,7 @@
 }
 
 .checkoutProduct__title:hover {
-    color: #a749ff;
+    color: var(--primary-hover)
 }
 
 .checkoutProduct__rating {

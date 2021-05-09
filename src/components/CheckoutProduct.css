@@ -16,10 +16,6 @@
     font-weight: 500;
 }
 
-.checkoutProduct__title, .checkoutProduct__price {
-    font-family: 'Poppins', sans-serif;
-}
-
 .checkoutProduct__title:hover {
     color: #a749ff;
 }
@@ -30,6 +26,5 @@
 
 .btn__removeFromBasket {
     margin-top: 8px;
-    font-family: 'Poppins', sans-serif;
     border: 1px solid;
 }

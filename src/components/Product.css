@@ -18,10 +18,6 @@
     color: #FFDF00;
 }
 
-.product__info > p {
-    font-family: 'Poppins', sans-serif;
-}
-
 .product__info p:hover {
     color: #a749ff;
 }

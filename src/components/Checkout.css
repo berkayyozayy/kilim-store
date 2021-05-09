@@ -1,0 +1,13 @@
+.checkout {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    height: max-content;
+}
+
+.checkout__title {
+    font-size: 48px;
+    font-weight: 400;
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+}

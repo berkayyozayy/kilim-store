@@ -1,0 +1,21 @@
+.collections {        
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 24px;
+}
+
+.title:hover {
+    color: var(--primary-hover)
+}
+
+.collection__products {
+    display: flex;
+    transition: all .5s ease 0s;
+}

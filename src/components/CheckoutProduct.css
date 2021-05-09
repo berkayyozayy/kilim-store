@@ -1,0 +1,30 @@
+.checkout__product {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.checkout__product > img {
+    height: 180px;
+    width: 180px;
+    object-fit: contain;
+}
+
+.checkoutProduct__title {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.checkoutProduct__title:hover {
+    color: var(--primary-hover)
+}
+
+.checkoutProduct__rating {
+    color: #FFDF00;
+}
+
+.btn__removeFromBasket {
+    margin-top: 8px;
+    border: 1px solid;
+}

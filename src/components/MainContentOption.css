@@ -1,0 +1,11 @@
+.mainContent__option > p {
+    margin-left: 20px;
+    font-size: 22px;
+    letter-spacing: 0.8px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.mainContent__option p:hover {
+    color: var(--primary-hover)
+}

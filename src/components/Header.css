@@ -1,0 +1,58 @@
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    position: sticky;
+    border-bottom: 1px solid lightgray;
+}
+
+.header__left {
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.header__left > p {
+    padding-left: 40px;
+    color: #555552;
+    font-size: 16px;
+    letter-spacing: .8px;
+    text-transform: capitalize;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.header__title {
+    color: #555552;
+    font-size: 16px;
+    padding-left: 40px;
+    letter-spacing: .8px;
+    text-transform: capitalize;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.header__title:hover {
+    color: var(--primary-hover)
+}
+
+.header__left p:hover {
+    color: var(--primary-hover)
+}
+
+.header__right {
+    display: flex;
+    align-items: center;
+}
+
+.header__optionBasket {
+    display: flex;
+    align-items: center;
+}
+
+a:-webkit-any-link {
+    color: inherit;
+}
+
